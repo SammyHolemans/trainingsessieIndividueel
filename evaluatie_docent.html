@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>CSS Grid Responsive Site</title>
+</head>
+
+<body>
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+            <h1>Evaluatie</h1>
+        </div>
+    </header>
+
+
+    <!-- Section B -->
+    <p>Vul dit formulier in, bij radio button zet je bij je keuze checked. Bij tekstvelden zet je het antwoord in de p-tag</p>
+
+    <p>Voorbeeld:</p>
+    <input type="radio" id="voorbeeld1">
+    <label for="voorbeeld1">Ja</label>
+    <input type="radio" id="voorbeeld2" checked>
+    <label for="voorbeeld2">Ongeveer</label>
+    <input type="radio" id="voorbeeld3">
+    <label for="voorbeeld3">Nee</label>
+    <br>
+    <hr>
+    <form action="">
+        <p>Naam studenten:</p>
+        <p class="answer"></p>
+
+        <p>Onderwerp:</p>
+        <p class="answer"></p>
+
+        <p>Ik heb de voorbereiding 3 werkdagen vooraf ter beschikking gekregen:</p>
+        <p class="answer"></p>
+
+        <p>Plaats:</p>
+        <p class="answer"></p>
+
+        <p>Datum:</p>
+        <p class="answer"></p>
+
+        <p>Beginuur:</p>
+        <p class="answer"></p>
+
+        <p>Einduur:</p>
+        <p class="answer"></p>
+
+        <p>Kwamen de betrokken studenten in ongeveer dezekfde mate aan bod tijdens de training:</p>
+        <p class="answer"></p>
+
+        <p>Was de aangeboden informatie duidelijk?:</p>
+        <input type="radio" id="duidelijk1">
+        <label for="duidelijk1">Ja</label>
+        <input type="radio" id="duidelijk2">
+        <label for="duidelijk2">Ongeveer</label>
+        <input type="radio" id="duidelijk3">
+        <label for="duidelijk3">Nee</label>
+
+        <p>Was de training logisch opgebouwd en ingedeeld?:</p>
+        <input type="radio" id="logisch1">
+        <label for="logisch1">Ja</label>
+        <input type="radio" id="logisch2">
+        <label for="logisch2">Ongeveer</label>
+        <input type="radio" id="logisch3">
+        <label for="logisch3">Nee</label>
+
+        <p>Was het voldoende praktisch gericht? :</p>
+        <input type="radio" id="praktisch1">
+        <label for="praktisch1">Ja</label>
+        <input type="radio" id="praktisch2">
+        <label for="praktisch2">Ongeveer</label>
+        <input type="radio" id="praktisch3">
+        <label for="praktisch3">Nee</label>
+
+        <p>Vond je het gebruikte materiaal gepast voor deze training?:</p>
+        <input type="radio" id="gepast1">
+        <label for="gepast1">Ja</label>
+        <input type="radio" id="gepast2">
+        <label for="gepast1">Ongeveer</label>
+        <input type="radio" id="gepast3">
+        <label for="gepast1">Nee</label>
+
+        <p>Was het materiaal verzorgd? :</p>
+        <input type="radio" id="verzorgd1">
+        <label for="verzorgd1">Ja</label>
+        <input type="radio" id="verzorgd2">
+        <label for="verzorgd2">Ongeveer</label>
+        <input type="radio" id="verzorgd3">
+        <label for="verzorgd3">Nee</label>
+
+        <p>Was het voldoende uitgebreid en gedetailleerd? :</p>
+        <input type="radio" id="uitgebreid1">
+        <label for="uitgebreid1">Ja</label>
+        <input type="radio" id="uitgebreid2">
+        <label for="uitgebreid2">Ongeveer</label>
+        <input type="radio" id="uitgebreid3">
+        <label for="uitgebreid3">Nee</label>
+
+        <p>Hoe was de hoeveelheid informatie en materiaal? :</p>
+        <input type="radio" id="hoeveelheid1">
+        <label for="hoeveelheid1">Goed</label>
+        <input type="radio" id="hoeveelheid2">
+        <label for="hoeveelheid2">Te veel</label>
+        <input type="radio" id="hoeveelheid3">
+        <label for="hoeveelheid3">Te weinig</label>
+
+        <p>Hoe was de moeilijkheidsgraad van de training? :</p>
+        <input type="radio" id="moeilijk1">
+        <label for="moeilijk1">Goed</label>
+        <input type="radio" id="moeilijk2">
+        <label for="moeilijk2">Te moeilijk</label>
+        <input type="radio" id="moeilijk3">
+        <label for="moeilijk3">Te eenvoudig</label>
+
+        <p>Hoe was het tempo van de training? :</p>
+        <input type="radio" id="tempo1">
+        <label for="tempo1">Goed</label>
+        <input type="radio" id="tempo2">
+        <label for="tempo2">Te snel</label>
+        <input type="radio" id="tempo3">
+        <label for="tempo3">Te traag</label>
+
+        <p>Waren de instructeurs goed voorbereid? :</p>
+        <input type="radio" id="voorbereid1">
+        <label for="voorbereid1">Zeer goed</label>
+        <input type="radio" id="voorbereid2">
+        <label for="voorbereid2">Voldoende</label>
+        <input type="radio" id="voorbereid3">
+        <label for="voorbereid3">Kan beter</label>
+
+
+        <p>Was deze training nuttig en zinvol, en is het geworden wat je ervan verwacht had? Heb je iets geleerd waar je iets aan hebt? Leg uit. </p>
+        <p class="answer">Test</p>
+        <p>Wat kun je nu dat je voor de training niet kon? </p>
+        <p class="answer"></p>
+        <p>Heb je dit voldoende zelf kunnen inoefenen, en heb je voldoende informatie en materiaal meegekregen om dit over een week nog op eigen houtje te kunnen?</p>
+        <p class="answer"></p>
+
+        <p>Wat vond je van deze training? </p>
+        <p class="answer"></p>
+        <p>Heb je aandachtspunten of verbeterpunten voor een volgende keer? </p>
+        <p class="answer"></p>
+        <p>Voornaam en familienaam: </p>
+        <p class="answer"></p>
+    </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>Github 101</div>
+    </footer>
+
+</body>
+
+</html>
